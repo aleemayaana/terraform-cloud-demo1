@@ -10,8 +10,8 @@ terraform {
 }
 
 # Provider Block
-provider "aws" {
-region  = var.region
+provider "github" {
+owner = "hashicorp"
 }
 /*
 Note-1:  AWS Credentials Profile (profile = "default") configured on your local desktop terminal  
