@@ -8,7 +8,7 @@ terraform {
     }
   }
 }
-backend "remote" {
+backend "cloud" {
     organization = "hcta-demo22"
 
     workspaces {
