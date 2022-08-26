@@ -10,7 +10,7 @@ terraform {
 
 cloud {
     organization = "hcta-demo22"
-
+    hostname = "app.terraform.io"
     workspaces {
       name = "sentinal-demo1"
     }
