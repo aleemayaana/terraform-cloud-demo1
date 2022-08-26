@@ -7,15 +7,15 @@ terraform {
       version = ">= 3.0"
     }
   }
-}
-backend "cloud" {
+
+cloud {
     organization = "hcta-demo22"
 
     workspaces {
       name = "sentinal-demo1"
     }
   }  
-
+}
 
 
 # Provider Block
