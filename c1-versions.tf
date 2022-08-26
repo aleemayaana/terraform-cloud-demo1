@@ -16,7 +16,7 @@ backend "remote" {
     }
   }  
 
-}
+
 
 # Provider Block
 provider = "aws" {
