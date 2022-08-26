@@ -8,6 +8,15 @@ terraform {
     }
   }
 }
+backend "remote" {
+    organization = "hcta-demo22"
+
+    workspaces {
+      name = "sentinal-demo1"
+    }
+  }  
+
+}
 
 # Provider Block
 provider = "aws" {
